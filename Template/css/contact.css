@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: rgb(26, 26, 26);
+}
+
+.titlepage {
+    padding-left: 10vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-size: 80px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.defaultHeight {
+    height: 80vh;
+    padding: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1;
+}
+
+.contactform {
+    height: 40vh;
+    padding-left: 10vh;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-column: 0;
+    grid-row: 1;
+}
+
+.formdiv {
+    width: 60vh;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-color: rgb(165, 164, 164);
+    background-color: rgb(34, 34, 34);
+}
+
+.boxinfo {
+    padding-left: 10vh;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.info {
+    width: 60vh;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-color: rgb(165, 164, 164);
+    background-color: rgb(34, 34, 34);
+    text-align: left;
+}
+
+.parainfo {
+    font-size: 15px;
+    color: white;
+}
+
+.messageinput {
+    padding: 10px 200px 17vh 0px;
+}
+
+input {
+    border: 1px solid rgb(97, 96, 96);
+    border-radius: 5px;
+    padding: 3px;
+    background-color: rgb(34, 34, 34);
+}
+
+.formtitle {
+    font-size: 30px;
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+.contactinfo {
+    color: rgb(209, 209, 209);
+    font-size: 17px;
+}
+
+.actualinfo {
+    color: rgb(255, 255, 255);
+}

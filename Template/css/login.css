@@ -1,0 +1,94 @@
+* {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+body {
+    background-image: url(../images/aicityimg.png);
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: cover;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.login {
+    margin: 24vh 0 24vh 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signup {
+    text-align: center;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    flex-direction: column;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(26, 26, 26);
+    border: 1px;
+    width: 15vw;
+    border-radius: 5px;
+    color: white;
+}
+
+.forms {
+    display: block;
+}
+
+.form-errors {
+    color: red;
+}
+
+.loginformdiv {
+    background-color: rgba(34, 34, 34, 0.9);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10vh 10vw 10vh 10vw;
+    border-radius: 20px;
+}
+
+.formtitle {
+    font-size: 50px;
+    color: white;
+}
+
+.formcontent {
+    font-size: 20px;
+    color: white;
+}
+
+.signuplink {
+    color: white;
+    background-color: rgb(26, 26, 26);
+    border: 1px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+}
+
+.signinlink  {
+    color: white;
+    background-color: rgb(26, 26, 26);
+    border: 1px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+}
+
+.submitbutton {
+    width: 5vw;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: auto;
+}

@@ -1,0 +1,15 @@
+.bottomfooter {
+    height: 40vh;
+    background-color: rgb(49, 49, 49);
+}
+
+.links {
+    color: white;
+    padding: 0 30px 0 30px;
+    font-size: 20px;
+}
+
+.linkscontainer {
+    text-align: center;
+    padding-top: 30vh;
+}

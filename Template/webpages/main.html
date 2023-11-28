@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/header.css">
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="/Programming/Template/webpages/main.html">Home</a></li>
+            <li><a href="/Programming/Template/webpages/aboutus.html">About Us</a></li>
+            <li><a href="/Programming/Template/webpages/contact.html">Contact</a></li>
+            <button class="buttonlogin" onclick=signinclick()>
+                <li class="butlog">Login</li>
+            </button>
+            <button class="signupbutton" onclick=signupclick()>
+                <li class="signupli">Sign up</li>
+            </button>
+        </ul>
+    </header>
+    <section class="banner">
+        <div class="content1">
+            <p>Accelerate Foundation</p>
+        </div>
+
+        <div class="chatbox">
+            <button class="chatbutton" onclick=chatbotbuttonclick()>Need Help? Click Here!</button>
+            <div class="chat">
+                <div class="chatoutput"></div>
+                <form action="POST">
+                    <input type="text" placeholder="Type in what you want to ask" class="chatinput">
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="loader"></div>
+    <section id="contact" class="maincontent"></section>
+
+    <div class="section1">
+        <h1 class="Titlemain">ACFN</h1>
+        <p class="paramain">
+            Accelerate Foundation, also known as ACFN, was created on November 11, 2023.
+            It was founded by Tejas Vanaparthy, Sohan Persona, Jai Gautam Hari Baskar, and (add others)
+            Our comapny facilitates the growth of businesses by providing services and software.
+            In the future, we hope to expand our business in to the field of AI and Manchine Learning.
+        </p>
+    </div>
+
+    <div class="services">
+        <h1 class="servicewebsites">Website Services</h1>
+        <div class="websiteimgandcontent">
+            <p>
+                We create high-quality, competitively priced websites for any business or personal use. 
+                We manually program them with HTML, CSS, and Javascript, and we use server-side languages 
+                like PHP and database management systems like MySQL. We do this to ensure that our clients 
+                receive the highest quality service that we can provide. It may take 2-3 weeks, depending 
+                on the time of year that the website is requested.
+            </p>
+            <img src="../images/roadmapwebsite.jpg " alt="">
+        </div>
+    </div>
+</body>
+
+<script src="../scripts/main.js"></script>
+</html>

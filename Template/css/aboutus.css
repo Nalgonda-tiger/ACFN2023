@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: rgb(26, 26, 26);    
+}
+
+.titlepage {
+    padding-left: 10vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-size: 80px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bodymain {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    grid-template-rows: 1;
+    text-align: center;
+    margin: 0 5vw 10vw 5vw;
+}
+
+.tejas {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.tejas hr {
+    width: 20vw;
+}
+
+.jai {
+    grid-column: 2;
+    grid-row: 1;
+    height: 30vh;
+}
+
+.sohan {
+    grid-column: 3;
+    grid-row: 1;
+    height: 30vh;
+}
+
+.peoplebox {
+    height: auto;
+    background-color: rgb(34, 34, 34);
+    border-radius: 10px;
+}
+
+.peopletitle {
+    color: white;
+    font-size: 30px;
+}
+
+.tejascontent {
+    display: flex;
+    
+}
+
+.tejascontent img {
+    width: 15vw;
+    height: auto;
+    border-radius: 10px;
+}
+
+.tejascontent p {
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
